@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/saurabmish/Project-Euler.svg?branch=master)](https://travis-ci.org/saurabmish/Project-Euler)
 [![codecov](https://codecov.io/gh/saurabmish/Project-Euler/branch/master/graph/badge.svg?token=JnMhKH4HfI)](https://codecov.io/gh/saurabmish/Project-Euler)
+[![Go Report Card](https://goreportcard.com/badge/github.com/saurabmish/Project-Euler)](https://goreportcard.com/report/github.com/saurabmish/Project-Euler)
 
 # Project Euler
 
