@@ -1,6 +1,11 @@
+[![Build Status](https://travis-ci.org/saurabmish/Project-Euler.svg?branch=master)](https://travis-ci.org/saurabmish/Project-Euler)
+[![codecov](https://codecov.io/gh/saurabmish/Project-Euler/branch/master/graph/badge.svg?token=JnMhKH4HfI)](https://codecov.io/gh/saurabmish/Project-Euler)
+
 # Project Euler
 
-Project Euler problems implemented in Golang with test-driven development.
+Project Euler problems implemented in Go with TDD.
+
+Since I'm starting with a new programming language, I want to be very confident with the code right from the start. Some of the best practices that I've learned from writing code in Python, including but not limited to - testing, documentation, build environments, etc. will be done in this project right from the start.
 
 <p align="center">
   <img src="project-euler.jpg" />
