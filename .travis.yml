@@ -1,0 +1,38 @@
+arch: amd64
+
+dist: bionic
+
+language: go
+
+go:
+  - 1.15.x
+
+before_install:
+  - go get github.com/quii/learn-go-with-tests/command-line/v1
+
+services:
+  - docker
+
+stages:
+  - testing
+  - coverage
+
+jobs:
+  include:
+    - stage: testing
+      script:
+        - go test -v ./...
+    - stage: coverage
+      script:
+        - go test -v -coverprofile coverage.out ./...
+        - go tool cover -html=coverage.out -o coverage.html
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -f coverage.html
+
+notifications:
+  email:
+    recipients:
+      - "saurab.mish@gmail.com"
+    on_success: never
+    on_failure: always
