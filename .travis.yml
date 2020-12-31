@@ -7,9 +7,6 @@ language: go
 go:
   - 1.15.x
 
-before_install:
-  - go get github.com/quii/learn-go-with-tests/command-line/v1
-
 services:
   - docker
 
