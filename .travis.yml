@@ -7,9 +7,6 @@ language: go
 go:
   - 1.15.x
 
-before_install:
-  - go get -t -v ./...
-
 stages:
   - testing
   - coverage
