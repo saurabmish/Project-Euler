@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func Multiples() int {
 	sum := 0
 	for i := 0; i < 1000; i++ {
@@ -10,8 +8,4 @@ func Multiples() int {
 		}
 	}
 	return sum
-}
-
-func main() {
-	fmt.Println(Multiples())
 }
