@@ -1,6 +1,6 @@
 package main
 
-// cutoff value must be greater than the sum of first two even numbers
+// EvenFibonacci returns the sum of even Fibonacci terms up to a limit
 func EvenFibonacci(cutoff int) int {
 	firstEven := 2
 	secondEven := 8
