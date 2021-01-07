@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // cutoff value must be greater than the sum of first two even numbers
 func EvenFibonacci(cutoff int) int {
 	firstEven := 2
@@ -13,8 +11,4 @@ func EvenFibonacci(cutoff int) int {
 		firstEven, secondEven = secondEven, evenFib
 	}
 	return evenSum
-}
-
-func main() {
-	fmt.Println(EvenFibonacci(10))
 }
